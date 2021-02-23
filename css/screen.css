@@ -109,3 +109,14 @@ a:hover,
 a:focus {
   color: crimson;
 }
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 58px;
+    line-height: 64px;
+  }
+
+  html {
+    padding: 48px 48px 24px;
+  }
+}
